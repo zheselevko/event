@@ -1,6 +1,5 @@
 Gulp Boilerplate for generic CSS/HTML/JS development
 =============
-<a href="http://riverco.de" target="_blank">riverco.de</a> gulp boilerplate.
 
 Structure
 =============
@@ -43,8 +42,4 @@ States of the blocks use prefix `.is-*`. `.is-running`, `.is-hidden`, `.is-open`
 
 For javascript hooks we use prefix `.js-*`.
 
-You are welcome
-=============
-Have fun using it, or borrowing some parts. In case of issues or ideas just create them on github. Or write us at <a href="mailto:html@coderiver.com.ua">html@coderiver.com.ua</a>.
 
-gl & hf.
