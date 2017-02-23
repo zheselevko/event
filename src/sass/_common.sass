@@ -28,9 +28,29 @@
 // =book
 // 	font-family: "book", Arial, sans-serif
 
+
++font(ProximaNova-Regular, ProximaNova-Regular)
+=ProximaNova-Regular
+	font-family: "ProximaNova-Regular", Arial, sans-serif
++font(ProximaNova-Bold, ProximaNova-Bold)
+=ProximaNova-Bold
+	font-family: "ProximaNova-Bold", Arial, sans-serif
+
+
 body
 	font-family: Arial, sans-serif
 	font-size: 12px
 	line-height: 1.4
 	
 // common blocks
+.container
+	width: 1024px
+	margin: 0 auto 
+	+box
+	+clr
+.left
+	float: left !important
+	text-align: left
+.right
+	float: right !important
+	text-align: right

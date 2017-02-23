@@ -1,2 +1,45 @@
 .out
 	width: 100%
+.footer
+	+box
+	+clr
+	.top-box
+		background: #00a8ff
+		+box
+		+clr
+		.inner
+			padding: 85px 70px
+			text-align: center
+			p
+				color: white
+				+ProximaNova-Bold
+				font-size: 24px
+				font-weight: 700
+				line-height: 30px
+	.bottom-box
+		background: #171717
+		padding: 20px 0
+		+box
+		+clr
+		.copy
+			+ProximaNova-Regular
+			color: #00a8ff
+			font-size: 14px
+			font-weight: 400
+			line-height: 20px
+		.footer__nav
+			li
+				position: relative
+				display: inline-block
+				a
+					+ProximaNova-Regular
+					text-decoration: none
+					margin-right: 20px
+					font-size: 14px
+					font-weight: 400
+					line-height: 20px
+					color: #686868
+					&:hover
+						color: #fff
+					&:active
+						color: #fff
