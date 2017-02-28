@@ -1,5 +1,195 @@
 .out
 	width: 100%
+.header
+	background-image: linear-gradient(to top, #0087cd 0%, #00a8ff 43%, #00a8ff 100%)
+	+box
+	+clr
+	.top__box
+		padding: 50px 0
+		+box
+		+clr
+		.inner
+			+box
+			+clr
+			height: 50px
+			padding: 6px 0
+			ul
+				li
+					position: relative
+					display: inline-block
+					a
+						+ProximaNova-Extrabld
+						font-size: 22px
+						text-decoration: none
+						line-height: 41px
+						color: #fffefe
+						margin-left: 60px
+						&:hover
+							color: #006498
+	.header__bottom
+		+box
+		+clr
+		.col
+			float: left	
+			width: 50%
+			.inner
+				+box
+				+clr
+				padding: 15px 135px 135px 96px
+				background: url("../img/bg_slider.png") 0 0 no-repeat
+.portfolio
+	+box
+	+clr
+	padding: 60px 0
+	h3
+		color: #3c3c3c
+		+Akrobatblack
+		font-size: 48px
+		font-weight: 900
+		text-transform: uppercase
+	.sub-title
+		color: #505050
+		+Akrobat-Regular
+		font-size: 22px
+		line-height: 28px
+		text-transform: uppercase
+		margin-bottom: 10px
+	.item
+		float: left
+		width: 25%
+		.box
+			background: #f1f1f1
+			margin-right: 10px
+			margin-bottom: 10px
+			img
+				width: 100%
+	.center
+		width: 100%
+		display: block
+		text-align: center
+		+ProximaNova-Regular
+		font-size: 14px
+		font-weight: 400
+		line-height: 24px
+		color: #3c3c3c
+		a
+			color: #00a8ff
+			text-decoration: none
+			&:hover
+				text-decoration: underline
+.order
+	+box
+	+clr
+	background: #f4f4f4
+	padding: 35px 0
+	background-size: 100% 100%
+	.row
+		+box
+		+clr
+		.col
+			float: left
+			width: 50%
+			.h3
+				color: #3c3c3c
+				+Akrobatblack
+				font-size: 48px
+				font-weight: 900
+				text-transform: uppercase
+				margin-bottom: 15px
+				line-height: 1
+			p
+				color: #3c3c3c
+				+ProximaNova-Regular
+				font-size: 16px
+				font-weight: 400
+				line-height: 30px
+				padding: 0 15px 0 0
+				a
+					color: #00a8ff
+					text-decoration: none
+					&:hover
+						text-decoration: underline
+			.form
+				padding: 10px 70px 0 52px
+				+box
+				+clr
+				.input-group
+					+box
+					+clr
+					margin-bottom: 10px
+					input[type="text"]
+						width: 100%
+						background: #eaeaea
+						border-radius: 5px
+						padding: 25px 20px
+						color: #626262
+						font-family: Tahoma
+						font-size: 14px
+						font-weight: 400
+						line-height: 18px
+					textarea
+						width: 100%
+						background: #eaeaea
+						border-radius: 5px
+						padding: 25px 20px
+						color: #626262
+						font-family: Tahoma
+						font-size: 14px
+						font-weight: 400
+						line-height: 18px
+						border: none
+					input[type="submit"]
+						background: #1dafed
+						padding: 24px 20px
+						border-radius: 5px
+						+Akrobatblack
+						text-transform: uppercase
+						color: #fff
+.advantages
+	+box
+	+clr
+	.row
+		padding: 60px 0
+		+box
+		+clr
+		.h3
+			color: #3c3c3c
+			+Akrobatblack
+			font-size: 48px
+			font-weight: 900
+			line-height: 1
+			text-transform: uppercase
+			margin-bottom: 35px
+		.col
+			float: left
+			width: 33.3%
+			position: relative
+			+box
+			+clr
+			.number
+				position: absolute
+				top: 0
+				left: 0
+				color: #00a8ff
+				+Akrobat-Regular
+				font-size: 88px
+				font-weight: 400
+				line-height: 60px
+				text-transform: uppercase
+			.content
+				padding-left: 90px
+				.name
+					color: black
+					+ProximaNova-Bold
+					font-size: 24px
+					font-weight: 700
+					line-height: 30px
+				.text
+					color: black
+					+ProximaNova-Regular
+					font-size: 18px
+					font-weight: 400
+					line-height: 24px
 .footer
 	+box
 	+clr
@@ -8,7 +198,7 @@
 		+box
 		+clr
 		.inner
-			padding: 85px 70px
+			padding: 75px 70px
 			text-align: center
 			p
 				color: white
@@ -16,6 +206,27 @@
 				font-size: 24px
 				font-weight: 700
 				line-height: 30px
+		.share
+			+box
+			+clr
+			padding: 23px 0 0 0
+			li
+				position: relative
+				display: inline-block
+				margin-right: 15px
+				.icon, [class^="icon-"], [class*=" icon-"]
+					margin-bottom: -3px
+				a
+					color: white
+					+ProximaNova-Bold
+					font-size: 30px
+					font-weight: 900
+					line-height: 34px
+					text-decoration: none
+					&:hover
+						text-decoration: underline
+				&:nth-child(3)
+					margin-right: 30px
 	.bottom-box
 		background: #171717
 		padding: 20px 0

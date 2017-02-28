@@ -1,6 +1,10 @@
 $icons: (0:0)
-$icons: map-merge($icons,(codedby: (X: 0px, Y:-9px, W: 47px, H: 5px, TW: 49px, TH: 14px, IMG: '../img/icons.png')))
-$icons: map-merge($icons,(coderiver: (X: 0px, Y:0px, W: 49px, H: 5px, TW: 49px, TH: 14px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(codedby: (X: -70px, Y:-50px, W: 47px, H: 5px, TW: 169px, TH: 93px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(coderiver: (X: -70px, Y:-41px, W: 49px, H: 5px, TW: 169px, TH: 93px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(facebook: (X: 0px, Y:-69px, W: 11px, H: 24px, TW: 169px, TH: 93px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(instagram: (X: -43px, Y:-41px, W: 23px, H: 23px, TW: 169px, TH: 93px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(logo: (X: 0px, Y:0px, W: 169px, H: 37px, TW: 169px, TH: 93px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(vk: (X: 0px, Y:-41px, W: 39px, H: 24px, TW: 169px, TH: 93px, IMG: '../img/icons.png')))
 
 
 // Gets an attribute from the sass map
@@ -36,16 +40,39 @@ $icons: map-merge($icons,(coderiver: (X: 0px, Y:0px, W: 49px, H: 5px, TW: 49px, 
 @mixin sr($i)
 	+sprite-retina($i)	
 
-//
-//.icon-codedby
-//	width: 47px
-//	height: 5px
-//	background-image: url('../img/icons.png')
-//	background-position: 0px -9px
-//
-//.icon-coderiver
-//	width: 49px
-//	height: 5px
-//	background-image: url('../img/icons.png')
-//	background-position: 0px 0px
-//
+
+.icon-codedby
+	width: 47px
+	height: 5px
+	background-image: url('../img/icons.png')
+	background-position: -70px -50px
+
+.icon-coderiver
+	width: 49px
+	height: 5px
+	background-image: url('../img/icons.png')
+	background-position: -70px -41px
+
+.icon-facebook
+	width: 11px
+	height: 24px
+	background-image: url('../img/icons.png')
+	background-position: 0px -69px
+
+.icon-instagram
+	width: 23px
+	height: 23px
+	background-image: url('../img/icons.png')
+	background-position: -43px -41px
+
+.icon-logo
+	width: 169px
+	height: 37px
+	background-image: url('../img/icons.png')
+	background-position: 0px 0px
+
+.icon-vk
+	width: 39px
+	height: 24px
+	background-image: url('../img/icons.png')
+	background-position: 0px -41px
